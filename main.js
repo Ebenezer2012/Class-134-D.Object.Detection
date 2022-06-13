@@ -49,7 +49,7 @@ function modelLoaded()
 {
 console.log("Model Loaded!");
 status = true;
-objectDetector.detect(video, gotResult);
+
 }
 
 function gotResult(error, results)  
